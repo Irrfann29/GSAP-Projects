@@ -132,10 +132,11 @@ nav .menu button{
     display: flex;
     align-items: center;
     gap: 20px;
+    
 }
 .services h1{
     background-color: rgb(237, 237, 11);
-    font-size: 30px;
+    font-size: 42px;
     padding: 2px 8px;
     border-radius: 6px;
 }
@@ -151,7 +152,7 @@ nav .menu button{
 .boxes .box{
     height: 350px;
     width: 100%;
-    background-color: pink;
+    /* background-color: pink; */
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     display: flex;
@@ -159,6 +160,7 @@ nav .menu button{
     align-items: center;
     padding: 20px 30px;
     position: relative;
+    border: solid 2px rgb(0, 0, 0,0.8);
 }
 .boxes .box img{
     height: 200px;
@@ -170,6 +172,9 @@ nav .menu button{
     font-size: 30px;
     position: absolute;
     bottom: 15%;
+    display: flex;
+    gap: 3px;
+    
 }
 .boxes .box h1{
     font-size: 40px;
@@ -177,8 +182,19 @@ nav .menu button{
     top: 25%;
     background-color: yellow;
     padding: 3px 10px;
+    border-radius: 5px;
 }
-
+#arrow{
+    font-size: 30px;
+    padding:1px 8px;
+    background-color: #000;
+    color: white;
+    border-radius: 48%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
 
 
 
