@@ -113,8 +113,73 @@ nav .menu button{
     padding: 10px 80px;
 }
 .workedfor img{
-    height: 60px;
+    height: 80px;
 }
+.btn:hover{
+    background-color: rgb(40, 38, 38);
+    color: white;
+
+}
+.btn3:hover{
+    background-color: white;
+    color: black;
+}
+
+.section2{
+    padding: 50px 80px;
+}
+.section2 .services{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.services h1{
+    background-color: rgb(237, 237, 11);
+    font-size: 30px;
+    padding: 2px 8px;
+    border-radius: 6px;
+}
+.services p{
+    font-size: 20px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 20px;
+}
+.boxes .box{
+    height: 350px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    position: relative;
+}
+.boxes .box img{
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+
+}
+.boxes .box h2{
+    font-size: 30px;
+    position: absolute;
+    bottom: 15%;
+}
+.boxes .box h1{
+    font-size: 40px;
+    position: absolute;
+    top: 25%;
+    background-color: yellow;
+    padding: 3px 10px;
+}
+
+
 
 
 
