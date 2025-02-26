@@ -148,10 +148,11 @@ nav .menu button{
     justify-content: space-around;
     gap: 50px;
     margin-top: 20px;
+    padding: 3px 30px;
 }
 .boxes .box{
     height: 350px;
-    width: 100%;
+    width: 50%;
     /* background-color: pink; */
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -173,7 +174,10 @@ nav .menu button{
     position: absolute;
     bottom: 15%;
     display: flex;
-    gap: 3px;
+    gap: 8px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
     
 }
 .boxes .box h1{
@@ -184,16 +188,29 @@ nav .menu button{
     padding: 3px 10px;
     border-radius: 5px;
 }
-#arrow{
-    font-size: 30px;
-    padding:1px 8px;
-    background-color: #000;
+.lightarrow{
+    font-size: 50px;
+    padding:5px;
+    background-color: black;
     color: white;
     border-radius: 48%;
-    text-align: center;
-    display: flex;
-    align-items: center;
+}
+.darkarrow{
+    font-size: 50px;
+    padding:5px;
+    background-color: white;
+    color: black;
+    border-radius: 48%;
     
+}
+.darkbox{
+    background-color: black;
+}
+.darkbox .content h1{
+    background-color: white;
+}
+.darkbox .content h2{
+    color: white;
 }
 
 
