@@ -217,11 +217,37 @@ nav .menu button{
     background-color: rgba(198, 180, 180, 0.2);
     border-radius: 25px ;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-right: 0px;
+    
 }
 .section3left{
     padding: 40px 35px;
+    width: 100%;
+    
+    
+}
+.section3left h1{
+    font-size: 52px;
+    margin-bottom: 2%;
+}
+.section3left p {
+    font-weight: 400;
+    font-size: 23px;
+    margin-right: 25%;
+}
+.section3left button{
+    margin-top: 4%;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 15px 25px;
+    color: white;
+    background-color: #000;
+    border-radius: 17px;
+}
+.sec3img{
+    margin-left: 10%;
+    height: 100%;
+    width: 95%;
 }
 
 
