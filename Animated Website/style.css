@@ -212,7 +212,17 @@ nav .menu button{
 .darkbox .content h2{
     color: white;
 }
-
+.section3{
+    margin: 50px 80px;
+    background-color: rgba(198, 180, 180, 0.2);
+    border-radius: 25px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3left{
+    padding: 40px 35px;
+}
 
 
 
