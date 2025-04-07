@@ -262,6 +262,47 @@ nav .menu button{
     cursor: pointer;
     
 }
+.sec4{
+    
+    display: flex;
+
+    align-items: center;
+    gap: 50px;
+}
+.sec4 h1{
+    background-color: rgb(237, 237, 11);
+    font-size: 40px;
+    padding: 2px 8px;
+    border-radius: 6px;
+}
+.sec4 p{
+    font-size: 23px;
+    font-weight: 400;
+}
+.footer1{
+    
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    border-radius: 25px;
+    margin: 50px 80px;
+    background-color: #000;
+    color: white;
+}
+.row p{
+    padding: 4px 0px;
+    font-size: 20px;
+}
+.footerLearn{
+    color: yellowgreen;
+    font-size: 30px;
+    background: transparent;
+
+}
+
 
 
 
